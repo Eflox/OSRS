@@ -1,0 +1,134 @@
+{
+  "asset" : {
+    "version" : "2.0",
+    "generator" : "OSRS-Environment-Exporter"
+  },
+  "scene" : 0,
+  "scenes" : [ {
+    "nodes" : [ 2 ]
+  } ],
+  "nodes" : [ {
+    "mesh" : 0
+  }, {
+    "mesh" : 1
+  }, {
+    "children" : [ 0, 1 ],
+    "name" : "region_0_0_9006"
+  } ],
+  "meshes" : [ {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 0,
+        "COLOR_0" : 1
+      },
+      "material" : 0,
+      "mode" : 4
+    } ]
+  }, {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 2,
+        "TEXCOORD_0" : 3
+      },
+      "material" : 1,
+      "mode" : 4
+    } ]
+  } ],
+  "materials" : [ {
+    "name" : "rs_untextured",
+    "pbrMetallicRoughness" : {
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  }, {
+    "name" : "rs_texture_1",
+    "pbrMetallicRoughness" : {
+      "baseColorTexture" : {
+        "index" : 0
+      },
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  } ],
+  "textures" : [ {
+    "source" : 0
+  } ],
+  "images" : [ {
+    "uri" : "./Textures/1.png"
+  } ],
+  "accessors" : [ {
+    "bufferView" : 0,
+    "count" : 591765,
+    "min" : [ -0.0625, -2934.1484, -41.5 ],
+    "max" : [ 64.0, 2922.8984, -0.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 1,
+    "count" : 591765,
+    "min" : [ 0.0, 0.0, 0.0, 0.0039215684 ],
+    "max" : [ 0.9882353, 0.9843137, 0.9843137, 1.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC4",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 2,
+    "count" : 11541,
+    "min" : [ 0.0, -0.0, -64.0 ],
+    "max" : [ 64.0, -0.0, -25.5 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 3,
+    "count" : 11541,
+    "min" : [ 0.0, 0.0 ],
+    "max" : [ 1.0, 1.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC2",
+    "componentType" : 5126
+  } ],
+  "bufferViews" : [ {
+    "buffer" : 0,
+    "byteOffset" : 0,
+    "byteLength" : 7101180,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 7101180,
+    "byteLength" : 9468240,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 16569420,
+    "byteLength" : 138492,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 16707912,
+    "byteLength" : 92328,
+    "target" : 34962
+  } ],
+  "buffers" : [ {
+    "uri" : "data.bin",
+    "byteLength" : 16800240
+  } ],
+  "extensionsUsed" : [ "KHR_materials_specular" ]
+}

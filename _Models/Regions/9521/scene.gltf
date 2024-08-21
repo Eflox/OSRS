@@ -1,0 +1,308 @@
+{
+  "asset" : {
+    "version" : "2.0",
+    "generator" : "OSRS-Environment-Exporter"
+  },
+  "scene" : 0,
+  "scenes" : [ {
+    "nodes" : [ 5 ]
+  } ],
+  "nodes" : [ {
+    "mesh" : 0
+  }, {
+    "mesh" : 1
+  }, {
+    "mesh" : 2
+  }, {
+    "mesh" : 3
+  }, {
+    "mesh" : 4
+  }, {
+    "children" : [ 0, 1, 2, 3, 4 ],
+    "name" : "region_0_0_9521"
+  } ],
+  "meshes" : [ {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 0,
+        "COLOR_0" : 1
+      },
+      "material" : 0,
+      "mode" : 4
+    } ]
+  }, {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 2,
+        "TEXCOORD_0" : 3
+      },
+      "material" : 1,
+      "mode" : 4
+    } ]
+  }, {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 4,
+        "TEXCOORD_0" : 5
+      },
+      "material" : 3,
+      "mode" : 4
+    } ]
+  }, {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 6,
+        "TEXCOORD_0" : 7
+      },
+      "material" : 4,
+      "mode" : 4
+    } ]
+  }, {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 8,
+        "TEXCOORD_0" : 9
+      },
+      "material" : 2,
+      "mode" : 4
+    } ]
+  } ],
+  "materials" : [ {
+    "name" : "rs_untextured",
+    "pbrMetallicRoughness" : {
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  }, {
+    "name" : "rs_texture_23",
+    "pbrMetallicRoughness" : {
+      "baseColorTexture" : {
+        "index" : 0
+      },
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  }, {
+    "name" : "rs_texture_60",
+    "pbrMetallicRoughness" : {
+      "baseColorTexture" : {
+        "index" : 1
+      },
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  }, {
+    "name" : "rs_texture_8",
+    "pbrMetallicRoughness" : {
+      "baseColorTexture" : {
+        "index" : 2
+      },
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  }, {
+    "name" : "rs_texture_11",
+    "pbrMetallicRoughness" : {
+      "baseColorTexture" : {
+        "index" : 3
+      },
+      "metallicFactor" : 0.0
+    },
+    "doubleSided" : true,
+    "alphaMode" : "MASK",
+    "alphaCutoff" : 0.2,
+    "extensions" : {
+      "KHR_materials_specular" : {
+        "specularFactor" : 0.0,
+        "specularColorFactor" : [ 0.0, 0.0, 0.0 ]
+      }
+    }
+  } ],
+  "textures" : [ {
+    "source" : 0
+  }, {
+    "source" : 1
+  }, {
+    "source" : 2
+  }, {
+    "source" : 3
+  } ],
+  "images" : [ {
+    "uri" : "./Textures/23.png"
+  }, {
+    "uri" : "./Textures/60.png"
+  }, {
+    "uri" : "./Textures/8.png"
+  }, {
+    "uri" : "./Textures/11.png"
+  } ],
+  "accessors" : [ {
+    "bufferView" : 0,
+    "count" : 165426,
+    "min" : [ -0.0078125, 0.625, -64.00781 ],
+    "max" : [ 64.0, 87.49219, -0.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 1,
+    "count" : 165426,
+    "min" : [ 0.0, 0.0, 0.0, 0.60784316 ],
+    "max" : [ 0.9882353, 0.9843137, 0.9843137, 1.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC4",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 2,
+    "count" : 4188,
+    "min" : [ 0.0, 3.375, -3.0 ],
+    "max" : [ 52.0, 6.0, -0.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 3,
+    "count" : 4188,
+    "min" : [ 0.0, -0.16666667 ],
+    "max" : [ 1.0321994, 1.1666666 ],
+    "byteOffset" : 0,
+    "type" : "VEC2",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 4,
+    "count" : 2988,
+    "min" : [ 51.0, 2.421875, -22.875 ],
+    "max" : [ 64.0, 5.765625, -0.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 5,
+    "count" : 2988,
+    "min" : [ 0.0, -6.2896626E-9 ],
+    "max" : [ 1.0055236, 2.4066572 ],
+    "byteOffset" : 0,
+    "type" : "VEC2",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 6,
+    "count" : 240,
+    "min" : [ 62.257812, 2.0, -8.640625 ],
+    "max" : [ 63.617188, 2.8671875, -0.1953125 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 7,
+    "count" : 240,
+    "min" : [ 0.0, -0.0 ],
+    "max" : [ 1.0909091, 1.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC2",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 8,
+    "count" : 594,
+    "min" : [ 51.375, 2.8203125, -22.429688 ],
+    "max" : [ 63.625, 6.2734375, -0.5 ],
+    "byteOffset" : 0,
+    "type" : "VEC3",
+    "componentType" : 5126
+  }, {
+    "bufferView" : 9,
+    "count" : 594,
+    "min" : [ 0.0, 0.0 ],
+    "max" : [ 1.0, 1.0 ],
+    "byteOffset" : 0,
+    "type" : "VEC2",
+    "componentType" : 5126
+  } ],
+  "bufferViews" : [ {
+    "buffer" : 0,
+    "byteOffset" : 0,
+    "byteLength" : 1985112,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 1985112,
+    "byteLength" : 2646816,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4631928,
+    "byteLength" : 50256,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4682184,
+    "byteLength" : 33504,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4715688,
+    "byteLength" : 35856,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4751544,
+    "byteLength" : 23904,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4775448,
+    "byteLength" : 2880,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4778328,
+    "byteLength" : 1920,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4780248,
+    "byteLength" : 7128,
+    "target" : 34962
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 4787376,
+    "byteLength" : 4752,
+    "target" : 34962
+  } ],
+  "buffers" : [ {
+    "uri" : "data.bin",
+    "byteLength" : 4792128
+  } ],
+  "extensionsUsed" : [ "KHR_materials_specular" ]
+}
